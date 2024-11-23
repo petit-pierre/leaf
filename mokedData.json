@@ -7,7 +7,8 @@
             "_id":0,
             "avatar":0,
             "password":"pouet",
-            "leafs":0
+            "leafs":0,
+            "admin":true
         },
         {
             "user_name":"pierre",
@@ -16,7 +17,8 @@
             "_id":1,
             "avatar":0,
             "password":"nkdsfjmkefz576678",
-            "leafs":0
+            "leafs":0,
+            "admin":false
         },
         {
             "user_name":"john",
@@ -25,7 +27,8 @@
             "_id":2,
             "avatar":0,
             "password":"nkdsgfd76678",
-            "leafs":0
+            "leafs":0,
+            "admin":false
         }
     ],
     "compagny": [
@@ -44,6 +47,49 @@
             "compagny_id": 0,
             "name":"Nexton",
             "e-mail":"contact@nexton.fr"
+        }
+    ],
+    "quizz":[
+        {
+            "green it":[
+                {
+                    "question_id":0,
+                    "question":"combien de kwa consomme votre poste de travail ?",
+                    "response":"2,4kwa"
+                },
+                {
+                    "question_id":1,
+                    "question":"Comment peut-on réduire la consommation énergétique des data centers ?",
+                    "response":"Optimisation de la refroidissement\nVirtualisation et consolidation\nEfficacité des équipements\nGestion de l'énergie\nSources d'énergie renouvelables\nOptimisation des logiciels :"
+                }
+            ]
+        }
+    ],
+    "defis":[
+        {
+            "defi_id":0,
+            "name":"eteindre son poste de travail en partant",
+            "checked":false
+        },
+        {
+            "defi_id":1,
+            "name":"baisser la luminosité de l'ecran",
+            "checked":false
+        },
+        {
+            "defi_id":2,
+            "name":"vider sa boite mail",
+            "checked":false
+        },
+        {
+            "defi_id":3,
+            "name":"utiliser les transports en commun",
+            "checked":false
+        },
+        {
+            "defi_id":4,
+            "name":"faire du covoiturage",
+            "checked":false
         }
     ]
 }
