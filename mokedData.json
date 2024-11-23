@@ -1,0 +1,49 @@
+{
+    "users":[
+        {
+            "user_name":"Martin",
+            "e-mail":"contact@nexton.fr",
+            "compagny_id":0,
+            "_id":0,
+            "avatar":0,
+            "password":"pouet",
+            "leafs":0
+        },
+        {
+            "user_name":"pierre",
+            "e-mail":"contact@pierre-le-developpeur.com",
+            "compagny_id":0,
+            "_id":1,
+            "avatar":0,
+            "password":"nkdsfjmkefz576678",
+            "leafs":0
+        },
+        {
+            "user_name":"john",
+            "e-mail":"john.doe@pierre-le-developpeur.com",
+            "compagny_id":0,
+            "_id":2,
+            "avatar":0,
+            "password":"nkdsgfd76678",
+            "leafs":0
+        }
+    ],
+    "compagny": [
+        {
+            "users_id":[
+                {
+                    "_id":0
+                },
+                {
+                    "_id":1
+                },
+                {
+                    "_id":2
+                }
+            ],
+            "compagny_id": 0,
+            "name":"Nexton",
+            "e-mail":"contact@nexton.fr"
+        }
+    ]
+}
